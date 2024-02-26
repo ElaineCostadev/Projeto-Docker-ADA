@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+
+# Arquivos de log
+*.log
+
+# Arquivos de ambiente
+**/.env
+
+# Arquivos de configuração do sistema
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.yml.override
+
+# Diretórios de dados do Docker Compose
+backend/data/
+database/data/
+
+# Arquivos temporários
+*.tmp
+
+# Arquivos de build
+/build
+/dist
+
+# Outros
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
